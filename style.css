@@ -97,3 +97,23 @@ nav h2{
      grid-template-columns: repeat(3, 1fr);
      grid-column-gap: 24px;
  }
+
+
+
+
+
+
+ /* Arrow */
+ .see{
+        text-decoration: none;
+       
+        color:white;
+        margin-right: 30px;
+        font-weight: 700;
+        font-size:19px;
+        padding:10px 30px;
+       text-align: right;
+       margin-bottom: 10%;
+
+    }
+ }
