@@ -1,0 +1,65 @@
+/*------home-----*/
+
+nav h2{
+    font-size: 25Spx;
+    margin-left: 28px;
+    padding: 15px 10px;
+    margin-top: 60px;
+}
+
+
+
+.food .row{
+    display:flex;
+    flex-basis: 31%;
+   
+}
+
+.food h1{
+    font-size: 40px;
+    margin-left: 28px;
+    padding: 15px 10px;
+    margin-top: 60px;
+}
+
+.food p{
+    color:chocolate;
+  
+    margin-left: 28px;
+    padding:10px 8px;
+    font-size: 18px;
+}
+
+.food .image img{
+    height: 80%;
+    width:70%;
+    margin-left: 150px;
+    
+}
+
+.photo-frame{
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+}
+
+.photo-detail{
+     position: absolute;
+}
+
+.food a{
+    text-decoration: none;
+    background-image: linear-gradient(lightsalmon,#f44336);
+    color:white;
+    margin-left: 30px;
+    font-weight: 700;
+    font-size:19px;
+    padding:10px 30px;
+    border-radius: 10px;
+}
+
+
+.food a:hover{
+    color:darkcyan;
+}
+
+
