@@ -22,7 +22,7 @@
 
     <!-- ------home----- -->
 
-    <section class="influncer">
+    <section class="food">
         <div class="row">
             <div class="many">
                 <h1>Start your Journey as<br><span>Influencer</span><br></h1>

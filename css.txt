@@ -6,25 +6,25 @@ nav h2{
     padding: 15px 10px;
     margin-top: 60px;
 }
-.influncer{
+.food{
     margin-bottom: 10%;
 }
 
 
-.influncer .row{
+.food .row{
     display:flex;
     flex-basis: 31%;
    
 }
 
-.influncer h1{
+.food h1{
     font-size: 40px;
     margin-left: 28px;
     padding: 15px 10px;
     margin-top: 60px;
 }
 
-.influncer p{
+.food p{
     color:chocolate;
   
     margin-left: 28px;
@@ -32,7 +32,7 @@ nav h2{
     font-size: 18px;
 }
 
-.influncer .image img{
+.food .image img{
     height: 80%;
     width:70%;
     margin-left: 150px;
@@ -48,7 +48,7 @@ nav h2{
      position: absolute;
 }
 
-.influncer a{
+.food a{
     text-decoration: none;
     background-image: linear-gradient(lightsalmon,#f44336);
     color:white;
@@ -60,7 +60,7 @@ nav h2{
 }
 
 
-.influncer a:hover{
+.food a:hover{
     color:darkcyan;
 }
 
