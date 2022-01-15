@@ -41,8 +41,8 @@ nav h2{
 
 .photo-frame{
     
-    border: 2px solid goldenrod;
-    border-radius: 20px;
+    /* border: 2px solid goldenrod;
+    border-radius: 20px; */
     position: relative;
 } 
 
@@ -152,7 +152,7 @@ nav h2{
 
 .buy h1{
     font-size: 40px;
-    margin-left: 28px;
+    margin-right: 28px;
     padding: 15px 10px;
     margin-top: 60px;
 }
@@ -160,7 +160,7 @@ nav h2{
 .buy p{
     
   
-    margin-left: 28px;
+    margin-right: 28px;
     padding:10px 8px;
     font-size: 18px;
 }
@@ -168,7 +168,7 @@ nav h2{
 .buy .image img{
     height: 80%;
     width:70%;
-    margin-left: 150px;
+    margin-left: 30px;
     
 }
 
@@ -249,4 +249,34 @@ nav h2{
     color:rgb(116, 29, 51)
 }
 
+/* --------------- Media Queries------------------- */ 
+/* Mobile */
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+.container{
+    /* background-color: red; */
+    grid-template-columns: repeat(1, 1fr);
+}
 
+.container{
+    flex-direction: column;
+}
+
+
+
+/* Tab */
+@media only screen and (max-width:688px) and
+(max-width:992px) {
+    .container{
+        width: 100%;
+    }
+.container{
+    /* background-color: red; */
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+    
+}
