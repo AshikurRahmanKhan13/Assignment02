@@ -25,7 +25,7 @@ nav h2{
 }
 
 .influncer p{
-    color:chocolate;
+    
   
     margin-left: 28px;
     padding:10px 8px;
@@ -39,10 +39,10 @@ nav h2{
     
 }
 
-.photo-frame{
+/* .photo-frame{
     border: 2px solid goldenrod;
     border-radius: 10px;
-}
+} */
 
 .photo-detail{
      position: absolute;
@@ -67,7 +67,8 @@ nav h2{
 
 /* Popular Collection */
 
-.container h2 { 
+.Collionect h2 { 
+    margin-top: 10%;
     text-align: center;
     margin-bottom: 5%;
 
@@ -90,12 +91,13 @@ nav h2{
  }
  .course-info p{
     font-size: 10px;
-     Weight:700
+     
  }
- .course{
+ .container{
      display: grid;
      grid-template-columns: repeat(3, 1fr);
      grid-column-gap: 24px;
+     margin-left: 100px;
  }
 
 
@@ -121,6 +123,70 @@ nav h2{
  }
 
 
+/*------Buy Products-----*/
+
+
+.buy{
+    margin-bottom: 10%;
+}
+
+
+.buy .products{
+    display:flex;
+    flex-basis: 31%;
+   
+}
+
+.buy h1{
+    font-size: 40px;
+    margin-left: 28px;
+    padding: 15px 10px;
+    margin-top: 60px;
+}
+
+.buy p{
+    
+  
+    margin-left: 28px;
+    padding:10px 8px;
+    font-size: 18px;
+}
+
+.buy .image img{
+    height: 80%;
+    width:70%;
+    margin-left: 150px;
+    
+}
+
+/* .photo-frame{
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+} */
+
+.photo-detail{
+     position: absolute;
+}
+
+.buy a{
+    text-decoration: none;
+    background-image: linear-gradient(lightsalmon,#f44336);
+    color:white;
+    margin-left: 30px;
+    font-weight: 700;
+    font-size:19px;
+    padding:10px 30px;
+    border-radius: 10px;
+}
+
+
+.buy a:hover{
+    color:darkcyan;
+}
+
+
+
+
 
 
 
@@ -130,36 +196,44 @@ nav h2{
 
 
 .footer{
-    width:100%;
-    text-align: center;
-    padding:30px 0;
-    background-color:rgb(192, 65, 65);
-    margin-top: 10%;
+    
+    background-color:black;
+    
    
 }
 
-/* .footer h4{
+.footer h1{
     margin-bottom:25px;
-    
-    font-size:50px;
+    color:white;
+    text-align:center;
+    font-size:30px;
     margin-top:20px;
     font-weight: 600;
-} */
+} 
 
 .icons .fab{
-    color:#f44336;
+    color:white;
+    text-align:center;
     margin:0 13px;
     cursor:pointer;
     padding:18px 0;
 }
 
 .footer p{
-    color:black;
+    font-size:17px;
+    color:white;
+    text-align:center;
 }
 
 .footer .icons{
-    color:darkred;
+    
+    color:white;
     font-size: 30px;
+    text-align:center;
+}
+
+.footer span{
+    color:rgb(116, 29, 51)
 }
 
 
