@@ -267,7 +267,7 @@ nav h2{
 
 
 /* Tab */
-@media only screen and (max-width:688px) and
+@media only screen and (min-width: 688px) and
 (max-width:992px) {
     .container{
         width: 100%;
@@ -275,6 +275,9 @@ nav h2{
 .container{
     /* background-color: red; */
     grid-template-columns: repeat(2, 1fr);
+}
+.container{
+    flex-direction: column;
 }
 
 
