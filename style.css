@@ -39,13 +39,26 @@ nav h2{
     
 }
 
-/* .photo-frame{
+.photo-frame{
+    
     border: 2px solid goldenrod;
-    border-radius: 10px;
-} */
+    border-radius: 20px;
+    position: relative;
+} 
 
 .photo-detail{
+    display: none;
      position: absolute;
+     width: 300px;
+}
+.photo-frame:hover .photo-detail{
+    display:block;
+    background-color: rgb(248, 188, 77);
+    /* transition: transform 2s ease-in-out; */
+    
+}
+.photo-frame:hover .photo{
+    transform: scale(1.2);
 }
 
 .influncer a{
@@ -65,7 +78,7 @@ nav h2{
 }
 
 
-/* Popular Collection */
+/*------------- Popular Collection ---------------*/
 
 .Collionect h2 { 
     margin-top: 10%;
@@ -105,7 +118,7 @@ nav h2{
 
 
 
- /* Arrow */
+ /*----------------- Arrow -------------------*/
  .see{
         text-decoration: none;
        
@@ -190,13 +203,13 @@ nav h2{
 
 
 
- /* footer  */
+ /* -------------------footer  -----------------*/
 
 /*--------footer--------*/
 
 
 .footer{
-    
+    margin-top:100px;   
     background-color:black;
     
    
